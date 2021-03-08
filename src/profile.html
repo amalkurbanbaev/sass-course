@@ -1,0 +1,45 @@
+---
+layout: default
+title: Cabinet
+---
+
+<h1 class="page__title page__title--center">Профиль</h1>
+
+<form class="form form--center" action="/" method="post" >
+
+	<div class="cabinet">
+		<div class="cabinet__form">
+			<div class="form__group form__group--md">
+				<input class="form__control" type="text" placeholder="Ваше имя" value="Алексей Шевцов">
+				<span class="form__line"></span>
+			</div>
+		
+			<div class="form__group form__group--md">
+				<input class="form__control" type="email" placeholder="Ваш e-mail" value="shevtsov@gmail.com">
+				<span class="form__line"></span>
+			</div>
+		
+			<div class="form__group form__group--md">
+				<input class="form__control" type="password" placeholder="Новый пароль">
+				<span class="form__line"></span>
+			</div>
+		
+			<div class="form__group form__group--md">
+				<input class="form__control" type="password" placeholder="Подтвердите пароль">
+				<span class="form__line"></span>
+			</div>
+		</div>
+
+		<div class="cabinet__avatar">
+			<img src="assets/images/leha.jpg" alt="">
+
+			<label class="cabinet__file" for="cabinet-pick-image">
+				<input name="cabinet-pick-image" id="cabinet-pick-image" type="file">
+				выбрать аватар
+			</label>
+		</div>
+	</div>
+
+	<button class="btn btn--blue btn--rounded btn--sm" type="button">Сохранить</button>
+
+</form>
